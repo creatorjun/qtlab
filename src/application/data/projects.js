@@ -1,0 +1,55 @@
+// src/application/data/projects.js
+
+/** @type {import('../../domain/entities/Project').Project[]} */
+export const projects = [
+  {
+    id: 'vibecode',
+    name: 'Vibe Code',
+    tag: 'Python · FastAPI · Flutter · PostgreSQL · Redis',
+    desc: 'AI 멀티에이전트 오케스트레이션 기반 코드 생성 자동화 플랫폼. 메인/서브 에이전트 협업, CodeSpace, RAG, Sandbox 격리 실행, SSE 실시간 스트리밍, Human-in-the-Loop 승인 플로우 포함.',
+    image: 'vibecode.png',
+    github: 'https://github.com/creatorjun/VibeCode',
+    demo: null,
+    metric: null,
+  },
+  {
+    id: 'kdic-setup',
+    name: 'Kdic Setup',
+    tag: 'C++20 · Win32 API · WIMGAPI',
+    desc: 'Windows 엔터프라이즈 배포 및 시스템 복구 자동화 도구. 설치 유형 분기(내부망/외부망/출장용/자회사), 데이터 보존, BitLocker 제어 지원.',
+    image: 'kdic-setup.png',
+    github: null,
+    demo: null,
+    metric: '실사용 환경 누적 3만 건 · 크래시 없음',
+  },
+  {
+    id: 'winsetup',
+    name: 'WinSetup',
+    tag: 'C++20 · Win32 · DDD · Clean Architecture',
+    desc: 'Windows 배포 및 복구 프레임워크. Result<T,E> 함수형 에러 처리, 자체 EventBus / TaskScheduler / DIContainer 구현. SMBIOS 파싱, MFT 스캐너, WIM 이미지 배포 지원.',
+    image: 'winsetup.png',
+    github: 'https://github.com/creatorjun/WinSetup',
+    demo: null,
+    metric: null,
+  },
+  {
+    id: 'py-github-analyzer',
+    name: 'py-github-analyzer',
+    tag: 'Python · asyncio · PyPI',
+    desc: 'AI/LLM 컨텍스트 생성을 위한 GitHub 레포지토리 비동기 분석 라이브러리. ZIP-first 전략, 자동 토큰 감지, JSON/Markdown 멀티 출력 포맷 지원.',
+    image: 'py-github-analyzer.png',
+    github: 'https://github.com/cruxhan/py-github-analyzer',
+    demo: 'https://pypi.org/project/py-github-analyzer/',
+    metric: null,
+  },
+  {
+    id: 'github-analyzer',
+    name: 'github_analyzer',
+    tag: 'Dart · Flutter · pub.dev',
+    desc: 'AI/LLM 컨텍스트 생성을 위한 GitHub 레포지토리 분석 Dart 라이브러리. Isolate 기반 병렬 처리, 스마트 캐싱, LLM 최적화 Markdown 3종 출력 지원.',
+    image: 'github-analyzer.png',
+    github: 'https://github.com/cruxhan/github_analyzer',
+    demo: 'https://pub.dev/packages/github_analyzer',
+    metric: null,
+  },
+]
