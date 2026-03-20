@@ -4,8 +4,8 @@ import { useInView } from '../hooks/useInView'
 
 const stats = [
   { value: '6+', label: '개발 경력 (년)' },
-  { value: '3만+', label: '실운영 배포 건수' },
-  { value: '5', label: '완성 프로젝트' },
+  { value: '10+', label: '실운영 배포 건수' },
+  { value: '20+', label: '완성 프로젝트' },
   { value: '2', label: '오픈소스 퍼블리시' },
 ]
 
@@ -18,8 +18,8 @@ export default function About() {
         <div ref={ref} className={`transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <p className="text-xs text-indigo-400 uppercase tracking-widest mb-4 font-mono">About</p>
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-16 leading-tight">
-            비전공 독학 4년,<br />
-            <span className="text-gray-500">실운영으로 검증된 개발자.</span>
+            단순 코더가 아닌,<br />
+            <span className="text-gray-500">풀스택 시스템 아키텍처.</span>
           </h2>
           <div className="grid md:grid-cols-2 gap-16">
             <div className="space-y-6 text-gray-400 leading-relaxed">

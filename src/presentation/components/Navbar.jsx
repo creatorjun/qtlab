@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <header className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${scrolled ? 'bg-[#0a0a0f]/90 backdrop-blur-md border-b border-white/5' : ''}`}>
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="text-white font-bold tracking-tight text-sm">Han Junho</a>
+        <a href="#" className="text-white font-bold tracking-tight text-sm">Han Junhee</a>
         <nav className="hidden md:flex items-center gap-8">
           {NAV_ITEMS.map(({ id, label }) => (
             <a

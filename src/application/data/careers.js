@@ -24,4 +24,13 @@ export const careers = [
       '정보처리기사 취득 (2021.06)',
     ],
   },
+  {
+    company: '(유) 코스모컴즈)',
+    role: '대표이사',
+    period: '2004.04 — 2019.04',
+    achievements: [
+      'VOIP 서비스 기획및 운영',
+      'VOIP 서버 및 빌링 서버 기획',
+    ],
+  },
 ]
