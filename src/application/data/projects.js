@@ -15,8 +15,8 @@ export const projects = [
   {
     id: 'win-setup',
     name: 'Win Setup',
-    tag: 'C++20 · Win32 · DDD · Clean Architecture · Kernel API',
-    desc: 'Windows 배포 및 복구 프레임워크 커스터 마이징 지원및 고도화. Result<T,E> 함수형 에러 처리, 자체 EventBus / TaskScheduler / DIContainer 구현. SMBIOS 파싱, MFT 스캐너, WIM 이미지 배포 지원.',
+    tag: 'C++20 · Win32 · DDD · Clean Architecture',
+    desc: 'Windows 배포 및 복구 프레임워크 커스터 마이징 지원및 고도화. Result<T,E> 함수형 에러 처리, 자체 EventBus / TaskScheduler / DIContainer 구현. SMBIOS 파싱, MFT 스캐너, WIM 이미지 배포 지원.Windows 배포 및 복구 프레임워크 커스터 마이징 지원및 고도화. Result<T,E> 함수형 에러 처리, 자체 EventBus / TaskScheduler / DIContainer 구현. SMBIOS 파싱, MFT 스캐너, WIM 이미지 배포 지원.Windows 배포 및 복구 프레임워크 커스터 마이징 지원및 고도화. Result<T,E> 함수형 에러 처리, 자체 EventBus / TaskScheduler / DIContainer 구현. SMBIOS 파싱, MFT 스캐너, WIM 이미지 배포 지원.',
     image: 'win-setup.png',
     github: null,
     demo: null,
